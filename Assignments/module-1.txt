@@ -1,0 +1,35 @@
+
+
+Q-1 : What is Software?
+
+ans : Software refers to a set of instructions, programs, or data that
+      enable a computer or other electronic device to perform specific tasks.
+      It is a crucial component of any computing system and plays a fundamental 
+      role in enabling hardware to execute various functions.
+
+______________________________________________________________________
+
+Q-2 : What are the types of Applications? 
+
+ans : 1) Productivity Applications:
+      2) Graphics and Multimedia Applications:
+      3) Communication Applications:
+      4) Entertainment Applications:
+      5) Business Applications:
+___________________________________________________________________
+
+Q-3 : What is programming?
+
+ans : Programming- To create a
+      Program.
+
+_____________________________________________________________________
+
+Q-4 : What is Python?
+
+ans : Python is a programming language. It's a way for people to tell 
+      computers what to do by writing instructions in a language that 
+      is easy for both humans and computers to understand. Python is known 
+      for its simplicity and readability, making it a good choice for beginners. 
+      It's widely used for various purposes, including web development,
+      data analysis, artificial intelligence, and more.
