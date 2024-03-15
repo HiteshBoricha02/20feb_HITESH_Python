@@ -1,0 +1,1 @@
+pas = input("Enter YOur Pass :")
