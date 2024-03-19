@@ -23,27 +23,3 @@ if(Choice == "With" or Choice == "Without"):
         print("Without Tamp Variable Swapping Value of B :",B)
 else:
     print("Please Enter Valid Choice :")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# print("Before Swapping Value of A :",A)
-# print("Before Swapping value of B :",B)
-
-# c = A
-# A = B
-# B = c
-# print("-----------------------------------------")
-# print("After Swapping Value of A :",A)
-# print("After Swapping Value of B :",B)

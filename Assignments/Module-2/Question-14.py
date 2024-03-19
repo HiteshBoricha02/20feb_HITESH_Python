@@ -16,5 +16,8 @@ for i in range(1,ln+1):
     num = list1.append(num)
     
 
+
 print("Your Entered List Is ",list1)
-print("Negative IDX Is ",list1[-5:-1])
+# print("Negative IDX Is ",list1[-5:-1])
+w = list1[-1::-1]
+print(w)
