@@ -74,7 +74,7 @@ num = 27
 for i in range(27,0,-1):
    
     for j in range(i):
-        print(chr(j+97),end=" ")
+        print(chr(j+65),end=" ")
     print(" ")    
 
 
