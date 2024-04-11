@@ -7,8 +7,7 @@ num = 101
 
 for i in range(num):
 
-    h.write(f"\nID :{i}")
-    
+    h.write(f"\nID :{i}")    
 
 
 
