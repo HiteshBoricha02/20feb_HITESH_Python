@@ -12,4 +12,6 @@ print(platform.release())
 print(platform.uname())
 print(platform.python_version_tuple())
 print(platform.release())
+print(platform.win32_ver())
+
 

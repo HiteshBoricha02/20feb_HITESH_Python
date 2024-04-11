@@ -8,4 +8,5 @@ print("hour :",time.hour)
 print("day :",time.day)
 print("week :",time.weekday())
 print("Minute :",time.minute)
+
 print("Full Time :",time.ctime())
