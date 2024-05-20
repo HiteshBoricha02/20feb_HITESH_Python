@@ -4,8 +4,8 @@
 
 employee = {'id' : 101,
             'Name' : 'Hitesh',
-            'Job Title' : 'Full stack Developer',
-            'salary' : 1200000}
+            'Job Title' : 'backend developer',
+            'salary' : 100000}
 
 for i in employee.items():
     print(i)

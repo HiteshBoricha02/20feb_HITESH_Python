@@ -15,7 +15,7 @@ def min_max():
     min_value = min(num)
 
     # Outputting the results
-    print("\nMaximum value:", max_value)
-    print("Minimum value:", min_value)
+    print("\nMaximum value :", max_value)
+    print("Minimum value :", min_value)
     
 min_max()

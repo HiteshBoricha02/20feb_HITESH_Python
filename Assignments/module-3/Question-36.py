@@ -2,17 +2,17 @@
 
 
 
-library = {1 : 'Book1',
-           2 : 'Book2',
-           3 : 'Book3',
+library = {1 : 'html',
+           2 : 'css',
+           3 : 'js',
            4 : 'Book4',
            5 : 'Book5',}
 
 print(f"Dictionary : {library}")
 
 
-print("\nKey are integer so enter Numeric Value")
-find  = int(input("Enter an Key to find it exists or not : "))
+
+find  = int(input("Enter a key is exist or not : "))
 
 if find in library.keys():
     print(f"{find} Exists")
