@@ -5,4 +5,4 @@ print('''In Python, the == operator checks whether the values of the two operand
          If the types are different, the comparison returns False.''')
 
 result = "1" == 1
-print(result) #out put is false
+print(result) 

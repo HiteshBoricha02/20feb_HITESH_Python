@@ -2,16 +2,16 @@
 # raise an exception.
 
 
-def get_number():
+def number():
     while True:
         try:
             number = int(input("Please enter an odd number: "))
             if number % 2 == 0:
-                raise ValueError("That is not an odd number.")
-            print(f"Thank you! {number} is an odd number.")
+                print("That is not an odd number.")
+            print(f"{number} is an odd number.")
             break
-        except ValueError as e:
+        except Exception as e:
             print(e)
 
 
-get_number()
+number()

@@ -1,11 +1,11 @@
 # Write a Python program to count the frequency of words in a file.
 
-def count_word_frequency(file_path):
-    try:
+def count_word(path):
+    
         # Open the file in read mode
-        with open(file_path, 'r') as file:
+        with open(path, 'r') as file:
             
-            word_freq = {}
+            word = {}
             
             
             for line in file:
@@ -22,22 +22,16 @@ def count_word_frequency(file_path):
                     
                     
                     if word:
-                        word_freq[word] = word_freq.get(word, 0) + 1
+                        word[word] = word.get(word, 0) + 1
         
-        return word_freq
+        return word
     
-    except FileNotFoundError:
-        print(f"The file at {file_path} was not found.")
-        return {}
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return {}
-
+    
 
 file_path = 'example.txt'  
 
 
-word_frequency = count_word_frequency(file_path)
+word_frequency = count_word(file_path)
 
 # Print the result
 print("Word Frequency:")

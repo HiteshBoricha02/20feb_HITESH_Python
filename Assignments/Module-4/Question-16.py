@@ -8,7 +8,7 @@ print('''
       This allows you to handle several types of exceptions with the same block of code.
       ''')
 
-def perform_division():
+def division():
     try:
         
         num = int(input("Enter a number: "))
@@ -18,15 +18,15 @@ def perform_division():
         
     except (ValueError, ZeroDivisionError) as e:
         
-        print(f"An error occurred: {e}")
+        print(f" error in your input : {e}")
     
     else:
        
-        print(f"The result is: {result}")
+        print(f" result is: {result}")
     
     finally:
         
-        print("Execution of the try-except block is complete.")
+        print(" block is complete.")
 
 # Call the function
-perform_division()
+division()

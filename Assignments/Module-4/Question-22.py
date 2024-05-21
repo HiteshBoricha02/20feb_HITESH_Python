@@ -11,17 +11,17 @@ print(" =>   self refers to the instance of the class. It is used to access vari
 
 print("Example of class :")
 
-class Person:
+class details:
     def data(self, name, age):
         self.name = name 
         self.age = age    
 
-    def greet(self):
+    def Hitesh(self):
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
 name = input("Enter Your Name :")
 age = int(input("Enter Your Age :"))
-person1 = Person()
+person1 = details()
 
 person1.data(name,age)
-person1.greet()
+person1.Hitesh()
