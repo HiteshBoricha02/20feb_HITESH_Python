@@ -1,20 +1,21 @@
 # Write a Python program to append text to a file and display the text.
 
  
-def fille_opction(file1,append):
-    
-    with open(file1, 'a') as file:
+
+import os
+os.chdir('Assignments\Module-4')
+append = 'Hello I am Hitesh Boricha'
+with open('Assignment.txt', 'a') as file:
         file.write(append + '\n')
     
     
-    with open(file1, 'r') as file:
+with open('Assignment.txt', 'r') as file:
         content = file.read()
         print("edited  File:")
         print(content)
 
 
 file = 'example.txt'
-append = 'Hello I am Hitesh Boricha'
 
 
-fille_opction(file,append)
+

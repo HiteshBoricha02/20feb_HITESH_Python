@@ -1,19 +1,19 @@
+# Write a Python program to copy the contents of a file to another file.
 
-# • Write a Python program to copy the contents of a file to another file.
-
-def copy_file(s_file, d_file):
-    
-       
-        with open(s_file, 'r') as src, open(d_file, 'w') as dst:
-            
-            for line in src:
-                dst.write(line)
-        print(f"Contents of {s_file} have been copied to {d_file} successfully.")
-   
-s_file = 'example.txt'  
-d_file = 'data.txt' 
+import os
 
 
-copy_file(s_file, d_file)
+
+os.chdir('Assignments/Module-4')
 
 
+file = open('Assignment.txt','r')
+
+d = file.read()
+
+file1 = open('example.txt','w')
+
+file1.write(d)
+print("File Copy successFully...")
+file.close()
+file1.close()

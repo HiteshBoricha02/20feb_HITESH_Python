@@ -1,10 +1,10 @@
 # Write a Python program to read an entire text file.
 
  
-def file(file_path):
+
     
     
-        with open(file_path, 'r') as file:
+with open('example.txt', 'r') as file:
         
             content = file.read()
             
@@ -12,7 +12,4 @@ def file(file_path):
     
     
 
-file_path = 'example.txt'
 
-
-file(file_path)

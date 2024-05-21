@@ -1,5 +1,2 @@
-apple
-banana
-cherry
-date
-year
+Hello, This Is a Python File Handling
+This is a new file created and written in Python.

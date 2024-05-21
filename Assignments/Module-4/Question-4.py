@@ -2,11 +2,13 @@
 # • Write a Python program to read first n lines of a file.
 
 
-def read_file(path, n):
+import os
    
-        with open(path, 'r') as file:
+n = int(input("Enter The lines you have read :"))
+os.chdir('Assignments\Module-4')
+with open('Assignment.txt', 'r') as file:
             
-            for i in range(n+1):
+            for i in range(n):
                 
                 line = file.readline()
                 
@@ -16,11 +18,9 @@ def read_file(path, n):
                 print(line, end='')
     
    
-        print(f"error in the file: ")
+            
 
 
-file_path = 'example.txt'
-n = int(input("Enter The lines you have read :"))
+
 
  
-read_file(file_path, n)

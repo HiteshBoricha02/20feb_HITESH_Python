@@ -1,19 +1,18 @@
+# Write a Python program to read first n lines of a file.
 
 
-from collections import deque
 
+import os
 
-def read_file(path, n):
-    
-        with open(path, 'r') as file:
-            lines = deque(file, maxlen=n)
+os.chdir('Assignments\Module-4')
 
-        for line in lines:
-            print(line, end='')
-    
+file= open('Assignment.txt','r')
 
-path = 'example.txt'
-n = int(input("Enter The line Number :"))
+n = int(input("Enter lines You have read :"))
 
+read = file.readlines()
 
-read_file(path, n)
+for i in read[-n : ]:
+    print(i)
+
+file.close()

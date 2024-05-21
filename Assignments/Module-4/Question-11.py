@@ -1,20 +1,24 @@
-# Write a Python program to write a list to a file
+# Write a Python program to write a list to a file.
 
-def file(file_path, my_list):
-   
-        with open(file_path, 'w') as file:
-            
-            for item in my_list:
-                file.write(str(item) + '\n')
-        
-        print(f"List  written  {file_path} successfully.")
+
+import os
+os.chdir('Assignments/Module-4')
+
+value = int(input("how many entry you enter :  "))
+items = []
+for i in range(value):
     
+    items.append(input("Enter append entry : "))
+
+
+file = open('Assignment.txt','w')
+
+for i in items:
+    
+    file.write(i)
+    file.write('\n')
     
 
-
-path = 'example.txt'
-
-list = ['apple', 'banana', 'cherry', 'date', 'year']
+file.close()
 
 
-file(path, list)

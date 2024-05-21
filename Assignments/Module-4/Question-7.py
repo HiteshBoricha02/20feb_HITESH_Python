@@ -3,26 +3,21 @@
 # • Write a Python program to read a file line by line store it into a variable.
 
 
-def read_variable(path):
+
+
+import os
+
+os.chdir('Assignments/Module-4')
+
+con = ''
+
+file = open('Assignment.txt','r') 
+
+for i in range(10):
+
+        con += file.readline()
+
+print(con)
     
-        
-        content = ""
-        
-        
-        with open(path, 'r') as file:
-            
-            for line in file:
-                content += line  
-        
-        return content
+
     
-   
-
-
-path = 'example.txt'
-
-
-content = read_variable(path)
-
-
-print(content)
