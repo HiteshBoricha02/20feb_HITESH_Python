@@ -1,6 +1,6 @@
 # quiz_master.py
 
-questions_file = 'questions.txt'
+questions_file = 'C:\Full Stack\Back End\Python sanket Sir\Assessment\questions.txt'
 
 # Load existing questions from file
 def load_questions():

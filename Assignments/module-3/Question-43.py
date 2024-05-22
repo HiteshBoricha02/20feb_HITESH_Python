@@ -6,10 +6,10 @@ print(""" - Zip use to iterate two list,or dictionary at the same time an return
  - Zip returns value in form of tuple
  """)
 
-l1 = [1,2,3,4]
+list1 = [1,2,3,4]
 
-l2 = [5,6,7,8]
+list2 = [5,6,7,8]
 
-x = zip(l1,l2)
+list3 = zip(list1,list2)
 
-print((list(x)))
+print((list(list3)))

@@ -2,19 +2,19 @@
 
 
 
-frontEnd = {1 : 'HTML',
-            2 : 'CSS',
-            3 : 'JS',
-            4 : 'BootStrap',
-            5 : 'jQuery'}
+Faculty = {1 : 'Shanket sir',
+            2 : 'Meet sir',
+            3 : 'Mitesh sir',
+            4 : 'jaydip sir',
+            5 : 'prakruti maam'}
 
-backEnd = {6 : 'C',
+COurse = {6 : 'Python',
            7 : 'C++',
-           8 : 'MySQL',
-           9 : 'Python',
-           10 : 'Django'}
+           8 : 'Graphics',
+           9 : 'Front End',
+           10 : 'Java,flutter'}
 
 
-frontEnd.update(backEnd)
+Faculty.update(COurse)
 
-print(frontEnd)
+print(Faculty)

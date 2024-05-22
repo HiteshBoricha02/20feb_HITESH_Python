@@ -2,14 +2,14 @@
 
 
 
-subjects = {1: 'HTML', 2: 'CSS', 3: 'JS', 4: 'BootStrap', 5: 'jQuery', 6: 'C', 7: 'C++', 8: 'MySQL', 9: 'Python', 10: 'Django'}
+course = {1: 'Front End', 2: 'Back End', 3: 'Web design', 4: 'Python', 5: 'java', 6: 'Flutter', 7: 'Android', 8: 'ios', 9: 'Graphics', 10: 'Digital Marketing'}
 
-# input for enter key for find values
-word = int(input("Enter Key to find Values : ")) 
 
-if word in subjects.keys():
+w = int(input("Enter Key and find The value : ")) 
+
+if w in course.keys():
     
-    print(f"{word} : {subjects[word]}")
+    print(f"{w} : {course[w]}")
     
 else :
-    print("Not Found the matching key")
+    print("Key Not Found You Have search")

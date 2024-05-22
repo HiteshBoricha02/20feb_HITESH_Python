@@ -1,6 +1,6 @@
 # quiz_game.py
-import quiz_master
 import quiz_cracker
+import quiz_master
 
 def main_menu():
     while True:
@@ -17,6 +17,7 @@ def main_menu():
             quiz_cracker.play_quiz()
         else:
             print("Invalid input, please enter 1 or 2.")
+            
 
 if __name__ == "__main__":
     main_menu()

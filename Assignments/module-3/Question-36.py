@@ -2,23 +2,23 @@
 
 
 
-library = {1 : 'html',
-           2 : 'css',
-           3 : 'js',
-           4 : 'Book4',
-           5 : 'Book5',}
+library = {1 : 'A',
+           2 : 'B',
+           3 : 'C',
+           4 : 'D',
+           5 : 'E',}
 
 print(f"Dictionary : {library}")
 
 
 
-find  = int(input("Enter a key is exist or not : "))
+find  = int(input("Enter a key and check key is exist or not : "))
 
 if find in library.keys():
-    print(f"{find} Exists")
+    print(f"{find} key is Exist You have find")
     print(library[find])
 
 else:
-    print(f"{find} Doesn't Exists...")
+    print(f"{find} key is not exist in this name...")
 
  

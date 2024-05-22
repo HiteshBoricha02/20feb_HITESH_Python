@@ -1,21 +1,21 @@
-# Write a Python script to sort (ascending and descending) a dictionary by
-# value.
+# How will you create a dictionary using tuples in python? 
 
+value = int(input("Enter Values for Tuple : "))
+
+list1= []
+list2 = [] 
+
+for i in range(1,value+1):
+    list1.append(input(f"Enter {i} key: ")) 
+    list2.append(input(f"Enter {i} Value : ")) 
+
+tuple1 = tuple(list1)
+tuple2 = tuple(list2)
+
+dict = {}
+
+for i in range(value):
     
-def sort_dict_ascending(d):
-    return dict(sorted(d.items(), key=lambda item: item[1]))
+    dict[list1[i]] = list2[i] 
 
-
-def sort_dict_descending(d):
-    return dict(sorted(d.items(), key=lambda item: item[1], reverse=True))
-
-
-sample_dict = {'apple': 5, 'banana': 2, 'orange': 8, 'grape': 3, 'mango': 1}
-
-
-sorted_dict_ascending = sort_dict_ascending(sample_dict)
-print("Dictionary sorted in ascending order:", sorted_dict_ascending)
-
-
-sorted_dict_descending = sort_dict_descending(sample_dict)
-print("Dictionary sorted in descending order:", sorted_dict_descending)
+print(dict)

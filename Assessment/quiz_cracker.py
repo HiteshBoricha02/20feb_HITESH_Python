@@ -1,23 +1,23 @@
-# quiz_cracker.py
+# quiz_Cracker.py
 
-questions_file = 'questions.txt'
+questions_file = 'C:\\Full Stack\\Back End\\Python sanket Sir\\Assessment\\questions.txt'
 
 def load_questions():
     questions = {}
     with open(questions_file, 'r') as f:
-            for line in f:
-                parts = line.strip().split('|')
-                if len(parts) == 4:
-                    qid = int(parts[0])
-                    question_text = parts[1]
-                    options = parts[2].split(',')
-                    answer = parts[3]
-                    questions[qid] = {
-                        'question': question_text,
-                        'options': options,
-                        'answer': answer
-                    }
-   
+        for line in f:
+            parts = line.strip().split('|')
+            if len(parts) == 4:
+                qid = int(parts[0])
+                question_text = parts[1]
+                options = parts[2].split(',')
+                answer = parts[3]
+                questions[qid] = {
+                    'question': question_text,
+                    'options': options,
+                    'answer': answer
+                }
+    return questions
 
 def play_quiz():
     questions = load_questions()

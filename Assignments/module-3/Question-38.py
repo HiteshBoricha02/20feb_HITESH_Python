@@ -17,9 +17,9 @@ for i in student.keys():
         
 if ( len(keyList) < 2):
 
-    print("No...")
-    print("This Dictionary has less then 2 keys")
+    
+    print("No...This Dictionary has less then 2 keys")
     
 else:
-    print("Yes...")
-    print("Your Dictionary has Multiple keys.")
+   
+    print("Yeh....Your Dictionary has Multiple keys.")

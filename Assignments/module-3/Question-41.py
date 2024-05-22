@@ -2,16 +2,16 @@
 # d1 = {'a': 100, 'b': 200, 'c':300} , d2 = {'a': 300, 'b': 200,’d’:400} 
 
 
-d1 = {'a': 100, 'b': 200, 'c':300}
-d2 = {'a': 300, 'b': 200, 'd':400}
+dict1 = {'a': 100, 'b': 200, 'c':300}
+dict2 = {'a': 300, 'b': 200, 'd':400}
 
-d3 = {}
+dict3 = {}
 
-for k,v in d1.items():
-     d3[k]= d3.get(k,0) + v
+for k,v in dict1.items():
+     dict3[k]= dict3.get(k,0) + v
     
 
-for k,v in d2.items():
-     d3[k]= d3.get(k,0) + v
+for k,v in dict2.items():
+     dict3[k]= dict3.get(k,0) + v
      
-print(d3)
+print(dict3)
